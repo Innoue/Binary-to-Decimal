@@ -17,20 +17,25 @@
 <body>
     <script src="js/scripts.js"></script>
     <div class="center" id="form">
-        <div class="center">
-            <h1> Binary To Decimal </h1>
-            <p>
-                Insert a Binary Number
-            </p>
-            <br>
+        <div class="center" id="container-bin">
             <div>
-                <span>Binary</span>
-                <input class="binary" id="bin" type="number" maxlength="8" min="0" max="1">
-                <br>
-                <span>Decimal</span>
-                <input id="dec" disabled>
+                <h1> Binary To Decimal </h1>
+                <p>Insert a Binary Number</p>
+            </div>
+            <div class="input-group mb-3 inputs center-margin">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-binary">Binary</span>
+                </div>
+                <input id="bin" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="input-group mb-3 inputs center-margin">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-decimal">Decimal</span>
+                </div>
+                <input type="text" id="dec" class="form-control" aria-label="Default" disabled aria-describedby="inputGroup-sizing-default">
             </div>
             <p id="texto"></p>
+
 
         </div>
     </div>
@@ -39,4 +44,4 @@
 </body>
 
 
-</html
+</html>

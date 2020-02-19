@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     })
 
-    $('.binary').mask('00000000', options);
+    $('#bin').mask('00000000', options);
     $('#bin').keypress(function() {
 
 
