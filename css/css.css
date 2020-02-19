@@ -1,0 +1,11 @@
+.center {
+    text-align: center;
+}
+
+#form {
+    padding-top: 15%;
+}
+
+input {
+    width: 200px;
+}
