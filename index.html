@@ -22,19 +22,23 @@
                 <h1> Binary To Decimal </h1>
                 <p>Insert a Binary Number</p>
             </div>
-            <div class="input-group mb-3 inputs center-margin">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-binary">Binary</span>
+            <form>
+
+                <div class="input-group mb-3 inputs center-margin">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-binary">Binary</span>
+                    </div>
+                    <input id="bin" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                 </div>
-                <input id="bin" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-            </div>
-            <div class="input-group mb-3 inputs center-margin">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-decimal">Decimal</span>
+                <div class="input-group mb-3 inputs center-margin">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-decimal">Decimal</span>
+                    </div>
+                    <input type="text" id="dec" class="form-control" aria-label="Default" disabled aria-describedby="inputGroup-sizing-default">
                 </div>
-                <input type="text" id="dec" class="form-control" aria-label="Default" disabled aria-describedby="inputGroup-sizing-default">
-            </div>
-            <p id="texto"></p>
+                <p id="texto"></p>
+                <input type="reset" value="Clear" id="reset" class="btn btn-default">
+            </form>
 
 
         </div>

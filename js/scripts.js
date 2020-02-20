@@ -5,6 +5,10 @@
 // }
 var tecla = ""
 $(document).ready(function() {
+    $("#reset").click(function() {
+        $("#texto").text("")
+    })
+
     //Armazena em tecla a tecla pressionada
     $(document).keypress(function(e) {
         tecla = e.keyCode
@@ -16,10 +20,6 @@ $(document).ready(function() {
     })
 
     $('#bin').mask('00000000', options);
-    $('#bin').keypress(function() {
-
-
-    })
 });
 
 var options = {
@@ -28,9 +28,6 @@ var options = {
         $("#texto").text("")
     }
 };
-
-
-
 
 // Conversão Binário para Decimal
 function binDec(number) {
