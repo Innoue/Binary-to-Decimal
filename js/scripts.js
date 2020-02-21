@@ -11,7 +11,6 @@ $(document).ready(function() {
             e.preventDefault()
             $("#texto").text("Please, insert a valid Binary Number")
         }
-
     })
 
     $('#bin').mask('00000000', options);
