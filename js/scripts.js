@@ -1,8 +1,3 @@
-// function bintodec(number) {
-//     number = document.getElementById("bin").value
-//     document.getElementById("dec").value = binDec(number)
-//     console.log(binDec(number))
-// }
 var tecla = ""
 $(document).ready(function() {
     $("#reset").click(function() {
