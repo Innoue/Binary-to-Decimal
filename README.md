@@ -2,7 +2,7 @@
 
 Idea from [here](https://github.com/florinpop17/app-ideas)
 
-**Demo**: [GitPages](https://jalapa.github.io/Binary-to-Decimal/)
+**Demo**: [GitPages](https://innoue.github.io/Binary-to-Decimal/)
 
 **Tier:** 1-Beginner
 
